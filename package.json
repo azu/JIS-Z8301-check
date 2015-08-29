@@ -1,0 +1,38 @@
+{
+  "name": "JIS-Z8301-check",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/JIS-Z8301-check.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/JIS-Z8301-check",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/JIS-Z8301-check/issues"
+  },
+  "version": "1.0.0",
+  "description": "JIS Z8301 checker.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "japanese",
+    "katakana",
+    "check",
+    "lint"
+  ],
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "espower-babel": "^3.3.0",
+    "mocha": "^2.2.5",
+    "power-assert": "^1.0.0"
+  },
+  "dependencies": {
+    "string.prototype.codepointat": "^0.2.0"
+  }
+}
